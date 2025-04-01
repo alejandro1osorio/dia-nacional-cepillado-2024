@@ -15,7 +15,7 @@ const app = express();
 
 // Configuración de CORS
 app.use(cors({
-  origin: 'http://localhost:8081',  // URL del frontend
+  origin: 'https://dia-nacional-cepillado-sbfb2024.col1.co',  // URL del frontend
   methods: ['GET', 'POST'],
   credentials: true,
 }));

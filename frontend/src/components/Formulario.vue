@@ -94,7 +94,7 @@ export default {
           formData.append('fotos', file);
         });
 
-        const response = await axios.post('http://localhost:5000/api/forms', formData, { // https://dia-nacional-cepillado-sbfb2024.col1.co/backend/api/forms
+        const response = await axios.post('https://dia-nacional-cepillado-sbfb2024.col1.co/backend/api/forms', formData, { // https://dia-nacional-cepillado-sbfb2024.col1.co/backend/api/forms
           headers: {
             'Content-Type': 'multipart/form-data',
           },
