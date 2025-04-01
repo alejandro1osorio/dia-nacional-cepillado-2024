@@ -15,7 +15,7 @@ const app = express();
 
 // Configuración de CORS
 app.use(cors({
-  origin: 'https://pruebas.kagencia.com',  // URL del frontend
+  origin: 'http://localhost:8081',  // URL del frontend
   methods: ['GET', 'POST'],
   credentials: true,
 }));
